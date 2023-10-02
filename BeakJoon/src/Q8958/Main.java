@@ -11,13 +11,13 @@ public class Main {
 
 		for (int t = 0; t < T; t++) {
 			String score = sc.next();
-			
+
 			int sum = 0, cnt = 1;
-			for(int i=0; i<score.length(); i++) {
-		
-				if(score.charAt(i) == 'O') {
+			for (int i = 0; i < score.length(); i++) {
+
+				if (score.charAt(i) == 'O') {
 					sum += cnt++;
-				}else {
+				} else {
 					cnt = 1;
 				}
 			}
